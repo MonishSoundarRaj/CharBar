@@ -114,10 +114,18 @@ ok "Zip created"
 
 # ---- Submit to Apple notarization service ---------------------------------
 say "Submitting to Apple notarization (this can take a few minutes)"
-xcrun notarytool submit "$ZIP_PATH" \
-  --keychain-profile "$NOTARY_PROFILE" \
-  --wait
-ok "Notarized"
+SUBMIT_OUTPUT="$(xcrun notarytool submit "$ZIP_PATH" --keychain-profile "$NOTARY_PROFILE" --wait 2>&1)"
+echo "$SUBMIT_OUTPUT"
+SUBMISSION_ID="$(printf '%s\n' "$SUBMIT_OUTPUT" | awk '/id:/{print $2; exit}')"
+if ! printf '%s\n' "$SUBMIT_OUTPUT" | grep -q "status: Accepted"; then
+  err "Notarization did NOT succeed (status is not Accepted)."
+  if [[ -n "$SUBMISSION_ID" ]]; then
+    err "Apple's notarization log for $SUBMISSION_ID:"
+    xcrun notarytool log "$SUBMISSION_ID" --keychain-profile "$NOTARY_PROFILE" || true
+  fi
+  exit 1
+fi
+ok "Notarized (Accepted)"
 
 # ---- Staple ticket so the app works offline -------------------------------
 say "Stapling notarization ticket"

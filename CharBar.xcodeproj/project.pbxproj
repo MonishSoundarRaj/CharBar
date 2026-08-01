@@ -11,7 +11,6 @@
 		E42EC56B2EFF45C00089BDC2 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = E42EC56A2EFF45C00089BDC2 /* KeyboardShortcuts */; };
 		E4430D5F2F5E197400B73CD2 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E4430D5E2F5E197400B73CD2 /* Sparkle */; };
 		E4AEA2D82EF79C300028C938 /* mediaremote-adapter.pl in Resources */ = {isa = PBXBuildFile; fileRef = E4AEA2D42EF79C300028C938 /* mediaremote-adapter.pl */; };
-		E4AEA2D92EF79C300028C938 /* MediaRemoteAdapterTestClient in Resources */ = {isa = PBXBuildFile; fileRef = E4AEA2D62EF79C300028C938 /* MediaRemoteAdapterTestClient */; };
 		E4AEA2DB2EF79CC40028C938 /* MediaRemoteAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */; };
 		E4AEA2DC2EF79CC40028C938 /* MediaRemoteAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -254,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AEA2D82EF79C300028C938 /* mediaremote-adapter.pl in Resources */,
-				E4AEA2D92EF79C300028C938 /* MediaRemoteAdapterTestClient in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
