@@ -137,9 +137,12 @@ Dependencies are resolved automatically via Swift Package Manager:
 
 `Scripts/notarize.sh` archives, signs with Developer ID, notarizes, staples, and builds a DMG (requires a Developer ID certificate and notary profile). See `SETUP_GUIDE.md` for the full setup.
 
-## 🔒 Privacy
+## 🔒 Privacy and Terms
 
 CharBar is a local-only utility. System stats, media info, Bluetooth state, and calendar data are read on-device to power the UI and are **never transmitted to any server**.
+
+- **[Privacy Policy](PRIVACY.md)**
+- **[Terms of Service](TERMS.md)**
 
 ## 📄 License
 
