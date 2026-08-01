@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>CharBar needs Bluetooth access to display your connected devices and their battery levels in the menu bar.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>CharBar needs Bluetooth access to display your connected devices and their battery levels in the menu bar.</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>CharBar needs automation access to control music playback and display now playing information.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>CharBar needs calendar access to display your upcoming meetings and detect video call links for quick joining.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>CharBar needs calendar access to display your upcoming meetings and detect video call links for quick joining.</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>CharBar uses accessibility access to register global keyboard shortcuts so you can toggle the floating bar, join meetings, and control playback from anywhere.</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>SUFeedURL</key>
+	<string>https://charbar.app/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>BTfr2Kjrn6uyDLeUIqKBoNLdgeYVM6En1ogI4PHQ6v8=</string>
+</dict>
+</plist>

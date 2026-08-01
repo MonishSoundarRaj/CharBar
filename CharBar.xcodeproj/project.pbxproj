@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E42EC5692EFF45BD0089BDC2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E42EC5682EFF45BD0089BDC2 /* Lottie */; };
+		E42EC56B2EFF45C00089BDC2 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = E42EC56A2EFF45C00089BDC2 /* KeyboardShortcuts */; };
+		E4430D5F2F5E197400B73CD2 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E4430D5E2F5E197400B73CD2 /* Sparkle */; };
+		E4AEA2D82EF79C300028C938 /* mediaremote-adapter.pl in Resources */ = {isa = PBXBuildFile; fileRef = E4AEA2D42EF79C300028C938 /* mediaremote-adapter.pl */; };
+		E4AEA2D92EF79C300028C938 /* MediaRemoteAdapterTestClient in Resources */ = {isa = PBXBuildFile; fileRef = E4AEA2D62EF79C300028C938 /* MediaRemoteAdapterTestClient */; };
+		E4AEA2DB2EF79CC40028C938 /* MediaRemoteAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */; };
+		E4AEA2DC2EF79CC40028C938 /* MediaRemoteAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4AEA21A2EF6DA630028C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4AEA2022EF6DA620028C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AEA2092EF6DA620028C938;
+			remoteInfo = CharBar;
+		};
+		E4AEA2242EF6DA630028C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4AEA2022EF6DA620028C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AEA2092EF6DA620028C938;
+			remoteInfo = CharBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4AEA2512EF6E2CD0028C938 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4AEA2DC2EF79CC40028C938 /* MediaRemoteAdapter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4AEA20A2EF6DA620028C938 /* CharBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AEA2192EF6DA630028C938 /* CharBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AEA2232EF6DA630028C938 /* CharBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AEA2D42EF79C300028C938 /* mediaremote-adapter.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "mediaremote-adapter.pl"; sourceTree = "<group>"; };
+		E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaRemoteAdapter.framework; sourceTree = "<group>"; };
+		E4AEA2D62EF79C300028C938 /* MediaRemoteAdapterTestClient */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = MediaRemoteAdapterTestClient; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E4AEA20C2EF6DA620028C938 /* CharBar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CharBar;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4AEA2072EF6DA620028C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AEA2DB2EF79CC40028C938 /* MediaRemoteAdapter.framework in Frameworks */,
+				E4430D5F2F5E197400B73CD2 /* Sparkle in Frameworks */,
+				E42EC5692EFF45BD0089BDC2 /* Lottie in Frameworks */,
+				E42EC56B2EFF45C00089BDC2 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA2162EF6DA630028C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA2202EF6DA630028C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4AEA2012EF6DA620028C938 = {
+			isa = PBXGroup;
+			children = (
+				E4AEA2D72EF79C300028C938 /* mediaremote-adapter */,
+				E4AEA20C2EF6DA620028C938 /* CharBar */,
+				E4AEA24B2EF6E2C90028C938 /* Frameworks */,
+				E4AEA20B2EF6DA620028C938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4AEA20B2EF6DA620028C938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4AEA20A2EF6DA620028C938 /* CharBar.app */,
+				E4AEA2192EF6DA630028C938 /* CharBarTests.xctest */,
+				E4AEA2232EF6DA630028C938 /* CharBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4AEA24B2EF6E2C90028C938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4AEA2D72EF79C300028C938 /* mediaremote-adapter */ = {
+			isa = PBXGroup;
+			children = (
+				E4AEA2D42EF79C300028C938 /* mediaremote-adapter.pl */,
+				E4AEA2D52EF79C300028C938 /* MediaRemoteAdapter.framework */,
+				E4AEA2D62EF79C300028C938 /* MediaRemoteAdapterTestClient */,
+			);
+			path = "mediaremote-adapter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4AEA2092EF6DA620028C938 /* CharBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AEA22D2EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBar" */;
+			buildPhases = (
+				E4AEA2062EF6DA620028C938 /* Sources */,
+				E4AEA2072EF6DA620028C938 /* Frameworks */,
+				E4AEA2082EF6DA620028C938 /* Resources */,
+				E4AEA2512EF6E2CD0028C938 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E4AEA20C2EF6DA620028C938 /* CharBar */,
+			);
+			name = CharBar;
+			packageProductDependencies = (
+				E42EC5682EFF45BD0089BDC2 /* Lottie */,
+				E42EC56A2EFF45C00089BDC2 /* KeyboardShortcuts */,
+				E4430D5E2F5E197400B73CD2 /* Sparkle */,
+			);
+			productName = CharBar;
+			productReference = E4AEA20A2EF6DA620028C938 /* CharBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4AEA2182EF6DA630028C938 /* CharBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AEA2302EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBarTests" */;
+			buildPhases = (
+				E4AEA2152EF6DA630028C938 /* Sources */,
+				E4AEA2162EF6DA630028C938 /* Frameworks */,
+				E4AEA2172EF6DA630028C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AEA21B2EF6DA630028C938 /* PBXTargetDependency */,
+			);
+			name = CharBarTests;
+			packageProductDependencies = (
+			);
+			productName = CharBarTests;
+			productReference = E4AEA2192EF6DA630028C938 /* CharBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4AEA2222EF6DA630028C938 /* CharBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AEA2332EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBarUITests" */;
+			buildPhases = (
+				E4AEA21F2EF6DA630028C938 /* Sources */,
+				E4AEA2202EF6DA630028C938 /* Frameworks */,
+				E4AEA2212EF6DA630028C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AEA2252EF6DA630028C938 /* PBXTargetDependency */,
+			);
+			name = CharBarUITests;
+			packageProductDependencies = (
+			);
+			productName = CharBarUITests;
+			productReference = E4AEA2232EF6DA630028C938 /* CharBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4AEA2022EF6DA620028C938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					E4AEA2092EF6DA620028C938 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					E4AEA2182EF6DA630028C938 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E4AEA2092EF6DA620028C938;
+					};
+					E4AEA2222EF6DA630028C938 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E4AEA2092EF6DA620028C938;
+					};
+				};
+			};
+			buildConfigurationList = E4AEA2052EF6DA620028C938 /* Build configuration list for PBXProject "CharBar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4AEA2012EF6DA620028C938;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E42EC5662EFF45A70089BDC2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				E42EC5672EFF45B60089BDC2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E4430D5D2F5DF54D00B73CD2 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E4AEA20B2EF6DA620028C938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4AEA2092EF6DA620028C938 /* CharBar */,
+				E4AEA2182EF6DA630028C938 /* CharBarTests */,
+				E4AEA2222EF6DA630028C938 /* CharBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4AEA2082EF6DA620028C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AEA2D82EF79C300028C938 /* mediaremote-adapter.pl in Resources */,
+				E4AEA2D92EF79C300028C938 /* MediaRemoteAdapterTestClient in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA2172EF6DA630028C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA2212EF6DA630028C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4AEA2062EF6DA620028C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA2152EF6DA630028C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AEA21F2EF6DA630028C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4AEA21B2EF6DA630028C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4AEA2092EF6DA620028C938 /* CharBar */;
+			targetProxy = E4AEA21A2EF6DA630028C938 /* PBXContainerItemProxy */;
+		};
+		E4AEA2252EF6DA630028C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4AEA2092EF6DA620028C938 /* CharBar */;
+			targetProxy = E4AEA2242EF6DA630028C938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4AEA22B2EF6DA630028C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4AEA22C2EF6DA630028C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E4AEA22E2EF6DA630028C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = CharBar/CharBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/mediaremote-adapter";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CharBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to display your connected devices and battery levels.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4AEA22F2EF6DA630028C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = CharBar/CharBar-Release.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/mediaremote-adapter";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CharBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to display your connected devices and battery levels.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E4AEA2312EF6DA630028C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharBar";
+			};
+			name = Debug;
+		};
+		E4AEA2322EF6DA630028C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharBar";
+			};
+			name = Release;
+		};
+		E4AEA2342EF6DA630028C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CharBar;
+			};
+			name = Debug;
+		};
+		E4AEA2352EF6DA630028C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838ASYRYR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monishsoundarraj.CharBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CharBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4AEA2052EF6DA620028C938 /* Build configuration list for PBXProject "CharBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AEA22B2EF6DA630028C938 /* Debug */,
+				E4AEA22C2EF6DA630028C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AEA22D2EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AEA22E2EF6DA630028C938 /* Debug */,
+				E4AEA22F2EF6DA630028C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AEA2302EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AEA2312EF6DA630028C938 /* Debug */,
+				E4AEA2322EF6DA630028C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AEA2332EF6DA630028C938 /* Build configuration list for PBXNativeTarget "CharBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AEA2342EF6DA630028C938 /* Debug */,
+				E4AEA2352EF6DA630028C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E42EC5662EFF45A70089BDC2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		E42EC5672EFF45B60089BDC2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		E4430D5D2F5DF54D00B73CD2 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E42EC5682EFF45BD0089BDC2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E42EC5672EFF45B60089BDC2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		E42EC56A2EFF45C00089BDC2 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E42EC5662EFF45A70089BDC2 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		E4430D5E2F5E197400B73CD2 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4430D5D2F5DF54D00B73CD2 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4AEA2022EF6DA620028C938 /* Project object */;
+}
