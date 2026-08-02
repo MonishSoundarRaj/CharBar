@@ -14,7 +14,7 @@ Animated Lottie characters that live in your menu bar, or float anywhere on scre
 
 <br/>
 
-<sub>Not notarized yet, so the first launch needs one quick step. Read the <b>Install</b> and <b>Requirements</b> sections below before running it.</sub>
+<sub>Signed with Developer ID and notarized by Apple, so it opens normally. See <b>Requirements</b> below.</sub>
 
 <br/><br/>
 
@@ -114,9 +114,7 @@ Every feature is a shortcut away, and all of them are customizable in Settings.
 
 1. **[Download CharBar.dmg](https://github.com/MonishSoundarRaj/CharBar/releases/latest/download/CharBar.dmg)**
 2. Open the DMG and drag **CharBar** into **Applications**.
-3. Launch it. This build isn't notarized yet, so macOS blocks it on first launch with *"Apple could not verify CharBar is free of malware."* On **macOS Tahoe** the dialog only has a **Done** button. To actually open the app:
-   - Click **Done**, then open **System Settings > Privacy & Security**, scroll to the bottom, and click **Open Anyway**, then confirm with **Open Anyway** again.
-   - Or, from Terminal: `xattr -dr com.apple.quarantine /Applications/CharBar.app`
+3. Launch it. CharBar is signed with Developer ID and notarized by Apple, so it opens normally. Just click **Open** on the standard first-launch prompt.
 4. Grant **Accessibility** and **Bluetooth** permissions when prompted (needed for shortcuts and one-click connect). Everything is processed locally, and nothing leaves your Mac.
 
 ## 🛠️ Build from source
